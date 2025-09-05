@@ -19,7 +19,8 @@ export default function App() {
 }
 
 
-function Header({ pagina, setPagina }) {
+// comentario aleatorio
+function Header({ pagina, setPagina}) {
   return (
     <View style={styles.header}>
      <Text style={styles.headerTitle}>GAME TECH</Text>
@@ -149,7 +150,7 @@ const styles = StyleSheet.create({
   },
   navButtonActive: { backgroundColor: '#0066cc' 
   },
-  
+
   navButtonText: { 
     color: 'white', 
     fontWeight: 'bold' 
