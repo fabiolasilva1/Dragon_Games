@@ -149,6 +149,7 @@ const styles = StyleSheet.create({
   },
   navButtonActive: { backgroundColor: '#0066cc' 
   },
+  
   navButtonText: { 
     color: 'white', 
     fontWeight: 'bold' 
